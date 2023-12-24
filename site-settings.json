@@ -4,53 +4,60 @@
   "mailpoet_api_key": "your_mailpoet_api_key",
   "mailpoet_list_id": "3",
   "subcription_widget": {
+
     "enable": true,
-    "title": "Stay up to date",
-    "description": "Get notified when I publish something new, and unsubscribe at any time.",
+    
+    "title": "Get the VIP Pass to Trends",
+    "description": "Join the league of trendsetters. Subscribe for exclusive updates and be the first to redefine your lifestyle.",
     "placeholder": "Enter your email address",
-    "success_message": "Thank you for subscribing. You're in!",
-    "error_message": "Something went wrong. Please try again. If the problem persists, you can contact me."
+    "success_message": "Kudos! You're now a Legit Lads VIP. Brace yourself for the latest in style, fitness, and more!",
+    "error_message": "Oops! Something went sideways. Give it another shot or reach out to our support team if the glitch persists."
+
   },
   "newsletter_section": {
+
+
+
     "enable": true,
-    "title": "Join our newsletter 🎉",
-    "description": "Read and share new perspectives on just about any topic. Everyone’s welcome.",
+    "title": "Unbox Fresh Perspectives 🌟",
+    "description": "Our newsletter is a treasure trove of diverse views. Dive in and be part of the conversation shaping modern lifestyles.",
     "right_image": "/images/SVG-subcribe2.png",
-    "features_list": ["Create a free account.", "Write your stories."]
+    "features_list": ["Access exclusive content.", "Share your unique stories."]
   },
   "top_banner": {
     "enable": true,
-    "description": "-50% Intro price for the next 72 hours only!.",
+    "description": "Level Up Your Lifestyle! Avail the -50% Introductory Offer for the Next 72 Hours. Don't Miss Out!",
     "end_link": {
       "url": "#",
-      "text": "Buy now  →",
+      "text": "Claim Your Upgrade →",
       "new_tab": false
     }
   },
 
   "top_category_section": {
     "enable": true,
-    "title": "Discover top 10 categories",
-    "sub_title": "Let's explore the most popular categories"
+    "title": "Explore the Top 10 Categories",
+    "sub_title": "Discover the Most Popular Topics Worldwide"
   },
 
   "site_info": {
-    "site_title": "Ncmaz Nextjs Blog",
-    "site_description": "Ncmaz Nextjs Blog headless WordPress",
-    "site_keywords": "Ncmaz Nextjs Blog",
-    "site_author": "ChisNghiax",
-    "site_email": "Your Email",
+    "site_title": "Legit Lads",
+    "site_description": "Your Ultimate Destination for Men's Lifestyle - International Insights, Trends, and More",
+    "site_keywords": "Men's Lifestyle, Fashion, Fitness, Technology, Travel, Finance, International Blog",
+    "site_author": "Your Name",
+    "site_email": "your@email.com",
     "site_phone": "Your Phone",
     "site_address": "Your Address",
     "site_city": "Your City",
     "site_state": "Your State",
     "site_zip": "Your Zip",
-    "site_country": "Your Country",
-    "site_url": "https://www.yoursite.com",
-    "site_logo": "/logo.png",
-    "site_logo_light": "/logo-light.png",
+    "site_country": "International",
+    "site_url": "https://www.legitlads.com",
+    "site_logo": "/hj.png",
+    "site_logo_light": "/hjj.png",
     "site_favicon": "/favicon.png"
-  },
+},
+
 
   "site_socials": [
     {
@@ -81,7 +88,7 @@
   ],
 
   "site_footer": {
-    "all_rights_reserved_text": "© 2023 ChisNghiax Company, Inc. All rights reserved."
+    "all_rights_reserved_text": "© 2023 Legit Lads. All rights reserved."
   },
 
   "submissions-settings": {
@@ -91,19 +98,19 @@
   },
 
   "signUp_page": {
-    "title": "Create an account",
-    "sub_title": "Enter your email below to create your account.",
+    "title": "Join Legit Lads",
+    "sub_title": "Enter your email below to create your account and dive into the world of international men's lifestyle.",
     "blockquote": {
-      "text": "This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+        "text": "Legit Lads has transformed my approach to lifestyle choices, from fashion to fitness. A must for the modern man.",
       "author": "Sofia Davis"
     }
   },
 
   "signIn_page": {
-    "title": "Sign in to your account",
-    "sub_title": "Enter your email below to sign in to your account.",
+    "title": "Sign in to Legit Lads",
+    "sub_title": "Enter your email below to access your account and stay updated on the latest trends.",
     "blockquote": {
-      "text": "This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+        "text": "Legit Lads has transformed my approach to lifestyle choices, from fashion to fitness. A must for the modern man.",
       "author": "Sofia Davis"
     },
     "lost_password": {
@@ -114,24 +121,24 @@
   },
 
   "mobile_nav_sidebar": {
-    "description": "Discover the most outstanding articles on all topics of life. Write your stories and share them with the community. "
+    "description": "Explore outstanding articles covering diverse aspects of men's lifestyle. Share your stories and connect with the Legit Lads community."
   },
   "help_page": {
-    "uri": "/helps",
-    "title": "Helps",
-    "sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+    "uri": "/helps",    
+  "title": "Help Center",
+  "sub_title": "Find solutions and share insights on various topics. Everyone is welcome at Legit Lads."
   },
   "document_page": {
     "uri": "/documents",
-    "title": "Documents",
-    "sub_title": "Read and share new perspectives on just about any topic. Everyone’s welcome."
+    "title": "Knowledge Hub",
+    "sub_title": "Access and share diverse perspectives on men's lifestyle topics. Join the Legit Lads community."
   },
   "cookies_policy_page": {
     "uri": "#"
   },
 
-  "empty_state": {
-    "title": "No results found.",
-    "description": "We couldn’t find any results. Try for something else."
+  "empty_state": {    
+  "title": "No Results Found",
+  "description": "We couldn't find any results. Explore more topics and stories on Legit Lads."
   }
 }

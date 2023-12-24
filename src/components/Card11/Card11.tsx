@@ -36,11 +36,11 @@ const Card11: FC<Card11Props> = ({
 
   return (
     <div
-      className={`nc-Card11 relative flex flex-col group rounded-3xl overflow-hidden bg-white dark:bg-neutral-900 ${className}`}
-      onMouseEnter={() => setIsHover(true)}
-      onMouseLeave={() => setIsHover(false)}
-      //
-    >
+    className={`nc-Card11 relative flex flex-col group rounded-3xl overflow-hidden bg-gray-300 dark:bg-gray-800 ${className} p-1 1/2`}
+    onMouseEnter={() => setIsHover(true)}
+    onMouseLeave={() => setIsHover(false)}
+  >
+
       <div
         className={`block flex-shrink-0 relative w-full rounded-t-3xl overflow-hidden z-10 ${ratio}`}
       >
@@ -53,7 +53,7 @@ const Card11: FC<Card11Props> = ({
         <CategoryBadgeList categories={categories?.nodes || []} />
       </span>
 
-      <div className="flex-1 rounded-b-3xl py-4 px-3.5 flex flex-col space-y-3 border border-neutral-100 dark:border-neutral-800 border-t-0">
+      <div className="flex-1  rounded-b-3xl py-4 px-3.5 flex flex-col space-y-3 border border-neutral-100 dark:border-neutral-800 border-t-0">
         {!hiddenAuthor ? (
           <PostCardMeta meta={{ author, date }} />
         ) : (
