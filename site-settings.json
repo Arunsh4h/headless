@@ -1,8 +1,8 @@
 {
   "version": "0.1.1",
 
-  "mailpoet_api_key": "your_mailpoet_api_key",
-  "mailpoet_list_id": "3",
+  "mailpoet_api_key": "y9ddc20f163cc0b2f159dd5572cb79ff1",
+  "mailpoet_list_id": "4",
   "subcription_widget": {
 
     "enable": true,
@@ -44,14 +44,14 @@
     "site_title": "Legit Lads",
     "site_description": "Your Ultimate Destination for Men's Lifestyle - International Insights, Trends, and More",
     "site_keywords": "Men's Lifestyle, Fashion, Fitness, Technology, Travel, Finance, International Blog",
-    "site_author": "Your Name",
-    "site_email": "your@email.com",
-    "site_phone": "Your Phone",
-    "site_address": "Your Address",
-    "site_city": "Your City",
-    "site_state": "Your State",
-    "site_zip": "Your Zip",
-    "site_country": "International",
+    "site_author": "Arun shah",
+    "site_email": "addictedarun4@gmail.com",
+    "site_phone": "+918349042968",
+    "site_address": "Intself Media",
+    "site_city": "Bhopal",
+    "site_state": "Madhya Pradesh",
+    "site_zip": "462022",
+    "site_country": "Usa",
     "site_url": "https://www.legitlads.com",
     "site_logo": "/hj.png",
     "site_logo_light": "/hjj.png",
