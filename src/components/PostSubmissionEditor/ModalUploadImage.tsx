@@ -100,7 +100,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
           <Alert type="info">
             {
               T.pageSubmission[
-                "Sorry this feature is not available yet. Please use the URL option."
+                "Sorry this feature is for premium users only."
               ]
             }
           </Alert>

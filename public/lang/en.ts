@@ -101,8 +101,8 @@ export default {
       "The url is not an image, please try again.",
     "Upload a file": "Upload a file",
     "Paste or type URL": "Paste or type URL",
-    "Sorry this feature is not available yet. Please use the URL option.":
-      "Sorry this feature is not available yet. Please use the URL option.",
+    "Sorry this feature is for premium users only.":
+      "Sorry this feature is for premium users only.",
     "Post options": "Post options",
     "Post format": "Post format",
     "Gallery images": "Gallery images",

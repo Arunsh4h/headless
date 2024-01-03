@@ -90,22 +90,27 @@ const Category: FaustTemplate<PageCategoryGetCategoryQuery> = (props) => {
             </div>
 
             {/*  */}
-            <div className="flex-grow">
-              <div className="max-w-screen-md space-y-3.5 ">
-                <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
-                  <span>{name}</span>
-                </h2>
-                <div className="flex items-center text-sm font-medium space-x-2 rtl:space-x-reverse cursor-pointer text-neutral-500 dark:text-neutral-400 ">
-                  <FireIcon className="w-5 h-5" />
-                  <span className="text-neutral-700 dark:text-neutral-300">
-                    {count || 0} Articles
-                  </span>
-                </div>
-                <span className="block text-sm sm:text-base text-neutral-500 dark:text-neutral-400">
-                  {description}
-                </span>
-              </div>
-            </div>
+            <div className="flex-grow flex">
+  <div className="max-w-screen-md flex-shrink-0 w-1/5 pr-6">
+    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold">
+      <span>{name}</span>
+    </h2>
+    <div className="flex items-center text-sm font-medium space-x-2 rtl:space-x-reverse cursor-pointer text-neutral-500 dark:text-neutral-400">
+      <FireIcon className="w-5 h-5" />
+      <span className="text-neutral-700 dark:text-neutral-300">
+        {count || 0} Articles
+      </span>
+    </div>
+  </div>
+  
+  <div className="max-w-screen-md w-3/5">
+    <span className="block text-sm sm:text-base text-neutral-500 dark:text-neutral-400">
+      {description}
+    </span>
+  </div>
+</div>
+
+
 
             {/*  */}
             <div className="absolute top-5 end-5">
