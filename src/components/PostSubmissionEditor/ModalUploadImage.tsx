@@ -78,7 +78,7 @@ const ModalUploadImage: FC<MenuItemImageProps> = ({
             />
           </div>
           <div>
-            <Label>Alt text (alternative text)</Label>
+            <Label>(Add an Alternative Name For the Image.)</Label>
             <Input
               className="mt-1"
               rounded="rounded-xl"
