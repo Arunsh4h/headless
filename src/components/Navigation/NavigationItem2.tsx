@@ -78,7 +78,7 @@ const NavigationItem2: FC<Props> = ({ menuItem: menuItemProp }) => {
                             >
                               <Link
                                 href={item.uri || ""}
-                                className="font-medium text-neutral-900 dark:text-neutral-200"
+                                className="font-poppins font-semibold text-sm md:text-base lg:text-lg xl:text-xl text-center relative overflow-hidden bg-gradient-to-r from-indigo-500 to-teal-400 bg-clip-text text-transparent animate-gradient text-dark-500 transition duration-300 hover:border-light-800 hover:border-dark-200"
                               >
                                 {item.label}
                               </Link>
@@ -133,13 +133,13 @@ const NavigationItem2: FC<Props> = ({ menuItem: menuItemProp }) => {
                                           ""}
                                       </Link>
                                     </div>
-                                    <h4 className="mt-2 text-sm font-medium leading-6 text-neutral-900 dark:text-neutral-300">
+                                    <h4 className="mt-2 text-sm font-semibold leading-6 font-poppins text-gray-800 dark:text-gray-300">
                                       <Link href={post.uri}>
                                         <span className="absolute inset-0" />
                                         {post.title}
                                       </Link>
                                     </h4>
-                                    <div className="mt-2 text-sm leading-6 text-neutral-500 dark:text-neutral-400">
+                                    <div className="mt-2 text-sm leading-6 font-poppins text-blue-600 dark:text-blue-300 hover:text-blue-800 hover:underline transition duration-300">
                                       <span
                                         className="line-clamp-3"
                                         dangerouslySetInnerHTML={{

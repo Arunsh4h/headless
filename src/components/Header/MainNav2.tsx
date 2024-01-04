@@ -90,7 +90,7 @@ const MainNav2: FC<MainNav2Props> = ({ menuItems, description, title }) => {
 
           <div className="flex-1 flex justify-end">
             <Navigation
-              maxItemsToShow={3}
+              maxItemsToShow={4}
               menuItems={menuItems}
               variation="nav2"
               className="hidden lg:flex"

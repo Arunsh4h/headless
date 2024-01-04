@@ -73,7 +73,7 @@ const Tag: FaustTemplate<PageTagGetTagQuery> = (props) => {
                       {count || 0} Articles
                     </span>
                   </div>
-                  <span className="block text-sm sm:text-base text-neutral-500 dark:text-neutral-400">
+                  <span className="font-sans text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-800 dark:text-gray-300 hover:text-primary-500 transition-all duration-300">
                     {description}
                   </span>
                 </div>

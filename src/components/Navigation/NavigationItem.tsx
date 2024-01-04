@@ -88,6 +88,7 @@ const NavigationItem: FC<NavigationItemProps> = ({
                     colColumns === 0 ? "hidden" : ""
                   }`}
                 >
+                 
                   {menu.children?.map((item, index) => (
                     <div key={index} className={item.cssClasses?.join(" ")}>
                       <Link
